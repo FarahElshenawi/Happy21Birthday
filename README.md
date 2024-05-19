@@ -10,7 +10,9 @@ This project is a fireworks simulation implemented using PyOpenGL. It generates 
 
 ## Demo Video
 
-Check out the [demo video](https://drive.google.com/file/d/1B1NC_IpDaKD-coXcCQdpaf9vLHxg3jB7/view?usp=drive_link) to see the fireworks simulation in action.
+Check out the [demo video](https://drive.google.com/file/d/1xkOfYNxTLz948aacvDST04qoRUdv3hsG/view?usp=drive_link) to see the fireworks simulation in action.
+
+I also added audio to the video to make it more engaging. While it was easy to do using Pygame, my PC had some problems, so I added the audio to the video instead.
 
 ## Usage
 
