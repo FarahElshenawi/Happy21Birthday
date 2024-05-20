@@ -15,7 +15,7 @@ TRAIL_COLORS = [(45 / 255, 45 / 255, 45 / 255), (60 / 255, 60 / 255, 60 / 255), 
 DYNAMIC_OFFSET = 2
 STATIC_OFFSET = 5
 
-TEXT_COLOR = (0, 0, 0)
+TEXT_COLOR = (1,1,1)
 TEXT_SIZE = 45
 TEXT_POSITION = (100 , DISPLAY_HEIGHT -100)
 
@@ -216,7 +216,8 @@ def main():
     glutInitWindowSize(DISPLAY_WIDTH, DISPLAY_HEIGHT)
     glutInitWindowPosition(0, 0)
     glutCreateWindow(b"Fireworks")
-    glClearColor(1.0, 0.75, 0.8, 1.0)
+    glClearColor(10 / 255, 10 / 255, 50 / 255, 1)
+    #glClearColor(1.0, 0.75, 0.8, 1.0)
     gluOrtho2D(0, DISPLAY_WIDTH, 0, DISPLAY_HEIGHT)
 
     glutDisplayFunc(update)
